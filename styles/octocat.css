@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: rgba(140,140,140,.8);
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+
+strong {
+  color: black;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  overflow: auto;
+  margin: -2rem;
+}
+
+.grid-item {
+  width: calc(100% / 3 - 4rem);
+  float: left;
+  margin: 2rem;
+  min-width: 18rem;
+}
+
+.card {
+  margin: 0;
+}
+
+.octocat-pic {
+  border: rgba(186,186,186,.43) 0.1rem solid;
+  border-radius: 0.3rem;
+}
+
+.caption {
+  margin: 0;
+  overflow: auto;
+  border-bottom: rgba(186,186,186,.43) 0.1rem solid;
+}
+
+.caption__left {
+  float: left;
+}
+
+.caption__right {
+  float: right;
+}
+
+.creator {
+  float: right;
+  width: 1.5rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.pic-name {
+  float: right;
+}
