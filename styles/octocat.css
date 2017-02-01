@@ -11,3 +11,58 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 2rem;
+  background: red;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  overflow: auto;
+  margin: -2rem;
+  background: blue;
+}
+
+.grid-item {
+  width: calc(100% / 3 - 4rem);
+  float: left;
+  margin: 2rem;
+  min-width: 7rem;
+  background: green;
+}
+
+.card {
+  margin: 0;
+}
+
+.caption {
+  margin: 0;
+  overflow: auto;
+}
+
+.caption__left {
+  float: left;
+}
+
+.caption__right {
+  float: right;
+}
+
+.creator {
+  float: right;
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.pic-name {
+  float: right;
+}
